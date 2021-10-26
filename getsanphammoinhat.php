@@ -14,7 +14,7 @@ while($row= mysqli_fetch_assoc($data)){
     ));
 }
 echo json_encode($mangsanphammoi);
-echo"hello";
+
 class Sanphammoinhat{
     
 function Sanphammoinhat($id,$tensp,$giasp,$hinhanhsp,$motasp){
